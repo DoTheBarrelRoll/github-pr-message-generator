@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Create PR Message Button",
+    "version": "1.0",
+    "description": "Adds a button to generate a formatted Pull Request message on PR pages.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://github.com/*/pull/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://github.com/*/pull/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
