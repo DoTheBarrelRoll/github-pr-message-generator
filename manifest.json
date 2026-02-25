@@ -9,13 +9,13 @@
     "host_permissions": [
         "https://github.com/*/pull/*"
     ],
-    "content_scripts": [
+    "web_accessible_resources": [
         {
+            "resources": [
+                "content.js"
+            ],
             "matches": [
                 "https://github.com/*/pull/*"
-            ],
-            "js": [
-                "content.js"
             ]
         }
     ]
