@@ -4,8 +4,7 @@
     "version": "1.0",
     "description": "Adds a button to generate a formatted Pull Request message on PR pages.",
     "permissions": [
-        "activeTab",
-        "scripting"
+        "activeTab"
     ],
     "host_permissions": [
         "https://github.com/*/pull/*"
@@ -17,6 +16,16 @@
             ],
             "js": [
                 "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "content.js"
+            ],
+            "matches": [
+                "https://github.com/*/pull/*"
             ]
         }
     ]

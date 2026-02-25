@@ -1,8 +1,10 @@
-# Create PR Message Button Chrome Extension
+# Create PR Message Button Browser Extension
 
-This Chrome extension adds a button to GitHub Pull Request pages to generate a formatted Pull Request message.
+This browser extension adds a button to GitHub Pull Request pages to generate a formatted Pull Request message. It works on both Chrome and Firefox.
 
 ## Installation
+
+### Chrome
 
 1. **Download or Clone the Repository**
    - Download this repository as a ZIP file and extract it, or clone it using:
@@ -21,16 +23,27 @@ This Chrome extension adds a button to GitHub Pull Request pages to generate a f
 4. **Done!**
    - The extension will now be active on GitHub Pull Request pages.
 
+### Firefox
+
+1. **Download or Clone the Repository**
+   - Download this repository as a ZIP file and extract it, or clone it using:
+     ```sh
+     git clone <repository-url>
+     ```
+
+2. **Open Firefox Add-ons Page**
+   - Go to `about:debugging#/runtime/this-firefox` in your Firefox browser.
+
+3. **Load the Temporary Add-on**
+   - Click **Load Temporary Add-on**.
+   - Select the `manifest.json` file from the folder where you extracted or cloned this repository.
+
+4. **Done!**
+   - The extension will now be active on GitHub Pull Request pages.
+
 ## Permissions
 
-- `activeTab`
-- `scripting`
-- Host: `https://github.com/*/pull/*`
-
 ## How it Works
-
-- Injects a button into GitHub PR pages.
-- Clicking the button generates a formatted PR message and copies it to the clipboard.
 
 ## Support
 
