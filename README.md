@@ -36,7 +36,7 @@ This browser extension adds a button to GitHub Pull Request pages to generate a 
 
 3. **Load the Temporary Add-on**
    - Click **Load Temporary Add-on**.
-   - Select the `manifest.json` file from the folder where you extracted or cloned this repository.
+   - Select the `manifest-firefox.json` file from the folder where you extracted or cloned this repository.
 
 4. **Done!**
    - The extension will now be active on GitHub Pull Request pages.

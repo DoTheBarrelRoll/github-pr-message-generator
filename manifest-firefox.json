@@ -18,5 +18,15 @@
                 "content.js"
             ]
         }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "content.js"
+            ],
+            "matches": [
+                "https://github.com/*/pull/*"
+            ]
+        }
     ]
 }
